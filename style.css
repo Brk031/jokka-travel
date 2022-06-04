@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Quicksand:wght@400;500;600;700&display=swap');
+
+*{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+}
+
+body{
+      font-family: 'Quicksand', sans-serif;
+      
+}
+
+header{
+      width: 100%;
+      height: 80px;
+      margin: auto;
+      line-height: 30px;
+      background-color: #F6FBF4;
+      border-bottom: 1px solid #0AA1DD;
+      box-shadow: 1px 1px 5px #0AA1DD;
+      position: sticky;
+      top: 0;
+      z-index: 1;
+}
+
+.container{
+      width: 1100px;
+      margin: auto;
+      position: relative;
+}
+.logo{
+      float: left;
+}
+
+.logo img{
+      width: 250px;
+      padding: 15px;
+      margin: auto 0;
+}
+
+.checkbtn{
+      font-size: 30px;
+      float: right;
+      line-height: 80px;
+      cursor: pointer;
+      display: none;
+}
+#check{
+      display: none;
+}
+
+nav{
+      float: right;
+      list-style-type: none;
+}
+nav ul{
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+}
+nav li{
+      display: inline-block;
+      
+}
+nav a{
+      display: inline-block;
+      font-size: 18px;
+      text-align: center;
+      cursor: pointer;
+      padding: 25px;
+      font-weight: 500;
+      color: black;
+}
+nav a:hover{
+      color: #0AA1DD;
+}
+.mulai{
+      background-color: #0AA1DD;
+      color: white;
+      border-radius: 15px;
+      padding: 6px 20px;
+}
+.mulai:hover{
+      color: black;
+}
+
+.home{
+      width: 100%;
+      display: flex;
+      margin-top: 50px;
+}
+.home img{
+      height: 50%;
+}
+
+.heading h2{
+      font-size: 40px;
+      text-align: left;
+      color: #0AA1DD;
+      font-weight: bold;
+      font-style: italic;
+      margin-top: 100px;
+      padding: 10px 0;
+}
+.heading p{
+      font-size: 1em;
+      text-align: justify;
+}
+.heading .join{
+      margin-top: 20px;
+}
+.heading .join .mulai{
+      margin-left: 10px;
+      font-size: 1.3em;
+      cursor: pointer;
+}
+
+.content{
+      width: 100%;
+      margin-top: 50px;
+      padding: 40px;
+      
+}
+.content figure img{
+      height: 200px;
+}
+.subLogo{
+      text-align: center;
+      padding: 20px;
+}
+.subLogo img{
+      height: 50px;
+}
+.destinasi{
+      height: 550px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 5px 5px 10px #0AA1DD;
+}
+.destinasi figure{
+      margin: auto;
+      float: left;
+      width: 50%;
+      padding: 60px;
+      text-align: center;
+}
+.destinasi figure p{
+      padding: 10px;
+      text-align: justify;
+}
+
+
+.plan{
+      margin-top: 100px;
+}
+.plan .deskripsi{
+      width: 50%;
+      padding: 20px;
+}
+
+.lokasi{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 40px;
+      margin: auto;
+}
+.lokasi img{
+      flex-basis: 50%;
+      padding: 20px;
+      height: 300px;
+      
+}
+.lokasi .ui{
+      margin: 10px auto;
+}
+
+.teksss{
+      font-size: 1em;
+      text-align: center;
+      border-bottom: 2px solid #0AA1DD;
+      border-radius: 10px;
+}
+
+.ui #gambar:nth-child(2){
+      margin-bottom: 10000px;
+}
+
+
+.bagi{
+      width: 100%;
+      overflow: hidden;
+      padding: 20px;
+}
+
+aside{
+      float: right;
+      width: 50%;
+      padding-left: 20px;
+}
+
+.form{
+      width: 50%;
+      float: left;
+}
+
+.profile{
+      width: 60%;;
+      box-shadow: 1px 1px 10px #0AA1DD;
+      border-radius: 10px;
+      padding: 20px;
+      margin: auto;
+      height: 485px;
+}
+.profile .foto{
+      margin: 10px;
+      text-align: center;
+}
+.profile section h3{
+      font-style: italic;
+      color: #0AA1DD;
+      margin-left: 10px;
+      text-align: left;
+}
+.profile section{
+      text-align: center;
+}
+.profile section table{
+      width: 100%;
+}
+.profile img{
+      border-radius: 50%;
+      border: 1px solid #0AA1DD;
+      width: 200px;
+}
+
+.input{
+      width: 80%;
+      margin: auto 10px 10px auto;
+}
+fieldset{
+      margin: 0 auto;
+      border: 1px solid #0AA1DD;
+      border-radius: 10px;
+      padding: 20px;
+}
+fieldset legend{
+      font-size: 1.3em;
+      font-weight: bold;
+}
+fieldset input{
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #0AA1DD;
+      border-radius: 10px;
+      margin-bottom: 10px;
+}
+fieldset input:focus{
+      opacity: 0.5;
+}
+fieldset label{
+      font-size: 1em;
+      font-weight: bold;
+      margin-bottom: 10px;
+}
+fieldset .jk input ~ label{
+      font-weight: normal;
+}
+fieldset .jk input[type=radio]{
+      width: 20px;
+      margin: 15px auto;
+}
+fieldset .pilih{
+      margin-bottom: 30px;
+}
+fieldset select{
+      padding: 5px;
+      border: 1px solid #0AA1DD;
+      border-radius: 10px;
+      font-size: 1em;
+}
+fieldset select:focus{
+      opacity: 0.5;
+}
+
+fieldset .submit{
+      text-align: center;
+}
+
+fieldset input[type=submit]{
+      width: 30%;
+      font: italic, bold, 1em, 'Quicksand';
+      border: 1px solid black;
+      border-radius: 10px;
+      background-color: #0AA1DD;
+      opacity: 0.7;
+      color: white;
+      cursor: pointer;
+}
+fieldset input[type=submit]:hover{
+      font-weight: bold;
+      opacity: 1;
+}
+
+footer{
+      width: 100%;
+      margin-top: 50px;
+      padding:40px 0px;
+      background-color: #0AA1DD;
+}
+
+.kontak {
+      width: 100%;
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      margin: auto;
+}
+
+.kontak-list {
+      width: 20%;
+      margin: 0 auto;
+      
+}
+.kontak-list p{
+      color: white;
+}
+
+.kontak-list img{
+      width: 200px;
+}
+
+@media screen and (max-width: 1000px) {
+      .container{
+            width: 90%;
+      }
+      .logo img{
+            width: 250px;
+      }
+      .checkbtn{
+            display: block;
+      }
+      .menu ul{
+            position: fixed;
+            width: 100%;
+            height: 40vh;
+            background: #0AA1DD;
+            top: 80px;
+            left: 100%;
+            text-align: center;
+            transition: all .5s;
+      }
+      .menu ul li{
+            display: block;
+      }
+      .menu ul li a{
+            font-size: 16px;
+      }
+      .menu ul li a:hover{
+            color: white;
+      }
+      .menu ul li .mulai{
+            background-color: white;
+            color: black;
+      }
+      .menu ul li .mulai:hover{
+            color: black;
+      }
+      #check:checked ~ .menu ul{
+            left: 0;
+      }
+      .home{
+            display: inline;
+      }
+      .heading h2{
+            margin-top: 0;
+            font-size: 20px;
+      }
+      .heading p{
+            font-size: 0.8em;
+      }
+      .home img{
+            margin-top: 50px;
+      }
+      .content{
+            width: 100%;
+      }
+      .subLogo h3{
+            font-size: 1em;
+      }
+
+      .subLogo img{
+            height: 30px;
+      }
+      .content figure img{
+            height: 100px;
+      }
+      .destinasi{
+            height: 420px;
+      }
+      .destinasi figure{
+            padding: 10px;
+      }
+      .destinasi p{
+            font-size: 0.8em;
+      }
+      .plan .deskripsi{
+            width: 100%;
+      }
+      .lokasi img{
+            height: 250px;
+      }
+      aside{
+            width: 100%;
+            float: none;
+            padding: 0;
+      }
+      .form{
+            width: 100%;
+            float: none;
+      }
+      .profile{
+            width: 70%;
+            height: 450px;
+            margin-bottom: 30px;
+      }
+      .profile section h3{
+            margin-left: 50px;
+      }
+      .profile .foto{
+            margin: 0;
+      }
+      .input{
+            margin: auto;
+            width: 70%;
+      }
+      fieldset{
+            padding: 10px;
+      }
+      footer{
+            padding: 60px 0;
+      }
+      .kontak-list img{
+            width: 120px;
+      }
+
+}
+
+@media screen and (max-width: 667px) {
+      .home img{
+            margin-top: 50px;
+            height: 200px;
+      }
+      .menu ul li a:hover{
+            color: white;
+      }
+      .menu ul li .mulai:hover{
+            color: black;
+      }
+      .menu ul{
+            height: 60vh;
+      }
+      .lokasi img{
+            height: 180px;
+      }
+      .content figure img{
+            height: 70px;
+      }
+      .destinasi figure{
+            padding: 5px;
+      }
+      .destinasi p{
+            font-size: 0.6em;
+      }
+      .destinasi{
+            height: 380px;
+      }
+      .destinasi figure p{
+            text-align: left;
+      }
+      figure figcaption{
+            font-size: 0.6em;
+      }
+      .profile{
+            width: 85%;
+            height: 450px;
+            margin-bottom: 30px;
+      }
+      .profile section h3{
+            margin-left: 10px;
+      }
+      .input{
+            margin: auto;
+            width: 85%;
+      }
+      fieldset .jk input[type=radio]{
+            margin-left: 150px;
+      }
+      footer{
+            display: fl;
+            padding: 60px 0;
+      }
+      .kontak-list p{
+            font-size: 10px;
+      }
+      .kontak-list h3{
+            font-size: 12px;
+      }
+      .kontak-list img{
+            width: 70px;
+      }
+
+}
+
