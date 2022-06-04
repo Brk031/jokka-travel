@@ -236,7 +236,6 @@ aside{
       border: 1px solid #0AA1DD;
       width: 200px;
 }
-
 .input{
       width: 80%;
       margin: auto 10px 10px auto;
@@ -486,7 +485,7 @@ footer{
       }
       .profile{
             width: 85%;
-            height: 450px;
+            height: 460px;
             margin-bottom: 30px;
       }
       .profile section h3{
@@ -494,10 +493,7 @@ footer{
       }
       .input{
             margin: auto;
-            width: 85%;
-      }
-      fieldset .jk input[type=radio]{
-            margin-left: 150px;
+            width: 80%;
       }
       footer{
             display: fl;
@@ -514,4 +510,3 @@ footer{
       }
 
 }
-
